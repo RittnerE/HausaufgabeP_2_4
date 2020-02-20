@@ -1,0 +1,115 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+    background-color: beige;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+#doop {
+    background-color: antiquewhite;
+
+}
+.header {
+    font-family: "Arial Black", serif;
+    font-size: 5vh;
+    position: relative;
+}
+
+.imgHeader {
+    margin-bottom: 1.5vh;
+    width: 50vw;
+    height: 37.5vw;
+    position: relative;
+    background-color: #a8abc1;
+}
+
+.headline,.date,.author {
+    max-width: 50vw;
+}
+
+.News {
+    max-width: 50vw;
+    margin-bottom: 10vh;
+}
+
+.date,.author {
+    position: relative;
+    float: right;
+    font-family: "Arial Black", serif;
+    font-size: 1.5vh;
+}
+
+.author {
+    margin-bottom: 2vh;
+}
+
+.text {
+    display: block;
+    font-family: "Arial", serif;
+    font-size: 1.5vh;
+    margin-top: 2vh;
+    padding-bottom: 0;
+}
+
+.headline {
+    font-family: "Arial Black", serif;
+    font-size: 3vh;
+}
+.table {
+    max-width: 100vh;
+    border-spacing: 5vh;
+    margin-bottom: 2vh;
+    padding: 0;
+    display: grid;
+}
+.text2 {
+    display: block;
+    font-family: Arial, serif;
+    font-size: 1.75vh;
+}
+.header {
+    background-color: bisque;
+    padding: 10px;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+.back {
+    display: block;
+    font-family: Arial, serif;
+    font-size: 2vh;
+    padding: 1vh;
+    text-shadow: #a8abc1;
+    border-radius: 5px 0 0 5px;
+    float: right;
+    margin-top: 2vh;
+}
+.back:hover {
+    background: linear-gradient(180deg, #bfc2db 5%, #9a9bb1 100%);
+}
+.headlineA{
+    font-family: Arial, serif;
+    font-size: 5vh;
+}
+.subheadline{
+    font-family: Arial, serif;
+    font-size: 2.5vh;
+}
+.dateA{
+    float: right;
+}
+.authorA{
+    float: right;
+}
+.textA{
+    font-family: Arial, serif;
+    font-size: 2vh;
+}

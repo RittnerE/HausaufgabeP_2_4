@@ -1,0 +1,22 @@
+{{#with article}}
+    <input class="back" type="button" value="Zurück" onclick="history.back(-1)">
+    <img class="imageA" alt="TEASER" src="{{teaserImageUrl}}">
+    <h1 class="headlineA">{{headline}}</h1>
+    <h2 class="subheadline">{{subHeadline}}</h2>
+     <em class="authorA">{{author}}</em>
+    <br>
+    <em class="dateA">{{datePublished}}</em>
+    <br>
+    <main class="table">
+        {{#sections}}
+            {{#if text}}
+                <p class="textA">{{text}}</p>
+            {{/if}}
+            {{#if imageUrl}}
+                <img class="imageA" alt="IMAGE" src="{{imageUrl}}">
+
+                <em class="captionA">{{caption}}</em>
+            {{/if}}
+        {{/sections}}
+    </main>
+{{/with}}
